@@ -17,7 +17,7 @@ extension ViewController: UITextFieldDelegate {
 }
 
 class ViewController: UIViewController {
-    
+    // weak vs strong? have something to do with scope
     @IBOutlet weak var nameField: UITextField!
     @IBOutlet weak var lyricsView: UITextView!
     
